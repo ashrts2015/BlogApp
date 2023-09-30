@@ -42,7 +42,7 @@ import org.example.blogmultiplatform.util.searchPostsByTitle
 import org.jetbrains.compose.web.css.px
 
 
-/*
+
 @Page(routeOverride = "query")
 @Composable
 fun SearchPage() {
@@ -205,4 +205,4 @@ fun SearchPage() {
             LoadingIndicator()
         }
     }
-}*/
+}
