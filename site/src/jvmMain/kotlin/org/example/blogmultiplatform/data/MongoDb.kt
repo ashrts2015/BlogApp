@@ -31,11 +31,10 @@ fun initMongoDb(context: InitApiContext) {
 class MongoDb(val context: InitApiContext) : MongoRepository {
 
 
-            private val client = com.mongodb.kotlin.client.coroutine.MongoClient.create("mongodb+srv://ashok:ashok1234@mycluster.snirugc.mongodb.net/")
+            //private val client = com.mongodb.kotlin.client.coroutine.MongoClient.create("mongodb+srv://ashok:ashok1234@mycluster.snirugc.mongodb.net/")
 
-   /* private val client =
+    private val client =
         com.mongodb.kotlin.client.coroutine.MongoClient.create(System.getenv("MONGODB_URI"))
-*/
     /* private val client =
          com.mongodb.kotlin.client.coroutine.MongoClient.create()*/
 
